@@ -1,0 +1,93 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src ="link.js"></script>
+  <style>
+button {
+    background-color: rgb(37, 37, 211);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+} 
+body {
+    display: flex;
+  justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+}
+.full {
+
+  background-color: rgb(245, 155, 38);
+  width: 25vw;
+border-radius: 20px;
+padding:21px;
+
+  
+
+}
+.buttonss
+{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+
+ 
+       
+   
+}
+    label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .m {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    input {
+    border-radius: 9px;
+    padding: 4px;
+    font-family: 0px;
+  
+      
+    }
+
+
+  </style>
+    <title> Students Marks Data</title>
+</head>
+<body>
+    <div class="full">
+    <h1> Students Marks Data </h1>
+   
+<div class="buttonss">
+<label for = "maths">marks in Maths</label>
+<input type = "number" id = "maths"  required> <br></br>
+
+<label for = "English">marks in English</label>
+<input type = "number" id = "English"  required><required></required> <br></br>
+
+<label for = "computer"> marks in Maths</label>
+<input type = "number" id = "computer"  required> <required></required><br></br>
+ 
+<label for = "science"> marks science</label>
+<input type = "number" id = "science"  required><required></required> <br></br>
+
+<label for = "cs"> marks in Maths</label>
+<input type = "number" id = "cs"  required> <required></required><br></br>
+</div>
+<div class="m">
+    <button type ="button" onclick ="calculateMarks()">Total Marks</button>
+    <button type ="button" onclick ="calculateMarks()">Percentage</button>
+    <button type ="button" onclick ="calculateMarks()">Grade</button>
+
+</div>
+  
+    
+</div>
+</body>
+</html> 
+
